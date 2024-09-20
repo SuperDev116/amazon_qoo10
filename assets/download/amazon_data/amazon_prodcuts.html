@@ -1,0 +1,352 @@
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form id="information_form">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row m-4">
+                            <h3>amazon商品情報（価格と在庫を確認しましょう！）</h3>
+                            <div class="col-md-8">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="search" name="filter" id="filter" class="form-control" placeholder="検索。。。" value="" />
+                            </div>
+                        </div>
+
+                        <div class="row m-4">
+                            <table class="table table-striped table-bordered amazongn-middle">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th><button type="button" class="btn btn-outline-danger btn-sm"  data-bs-toggle="modal" data-bs-target="#myModal">削除</button></th>
+                                        <th style="width: 500px;">商品名</th>
+                                        <th style="width: 200px;">画像</th>
+                                        <th style="width: 200px;">価格</th>
+                                        <th style="width: 300px;">在庫</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="23"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B075D7BDPX" target="_blank"><p>サンワサプライ 海外電源変換アダプタ ブラック TR-AD4BK</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B075D7BDPX" target="_blank"><img src="https://c.media-amazon.com/images/I/61qtYBO7MBL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>3872</td>
+                <td>10</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="24"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09X1DY9VV" target="_blank"><p>旭電機化成 テレビの音も聞こえる手もとスピーカー 2 ブラック ANS-302BK 〈本体〉14×13×高さ12cm、〈本体プラグコード〉全長5m</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09X1DY9VV" target="_blank"><img src="https://c.media-amazon.com/images/I/61GH6-ukFpL._AC_SX425_.jpg" width="100" height="100" /></a></td>
+                <td>5400</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="26"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXH49KBS" target="_blank"><p>[Pogsun] アップルウォッチバンド Apple Watch バンドコンパチブル 38mm 40mm 41mm レディース iwatchかわいいバンド バースデー ギフト あっぷるうおっちバンド 防水 ステンレススチールバックル 調整ツール付き Apple Watch Series8 7 6 SE 5 4 3 2 1対応</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXH49KBS" target="_blank"><img src="https://c.media-amazon.com/images/I/71bfsc7OkKL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>3598</td>
+                <td>5</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="27"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09VC8393C" target="_blank"><p>PULUZ 40cm撮影ボックス ポータブル 簡易スタジオ 高 CRI (95+) 3 色温度 調光可能 ライトボックス Type-C 撮影キット 射撃テントボックス 製品写真用 6 x 両面カラー背景付き</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09VC8393C" target="_blank"><img src="https://c.media-amazon.com/images/I/71XXzSwJVpL._AC_SY355_.jpg" width="100" height="100" /></a></td>
+                <td>11598</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="28"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07K3ZLRPL" target="_blank"><p>cheero Power Plus Danboard Version 13400mAh PD18W 大容量 モバイルバッテリー (パワーデリバリー対応) 2ポート出力 Type-A Type-C 対応機種へ超高速充電 iPhone, Android AUTO-IC搭載 PSEマーク付 Power Delivery 3.0 対応 AtoCケーブル・CtoCケーブル付 CHE-097 (Light Brown)</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07K3ZLRPL" target="_blank"><img src="https://c.media-amazon.com/images/I/51GLwB9FFtL._AC_SX522_.jpg" width="100" height="100" /></a></td>
+                <td>10956</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="29"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0C2W1188T" target="_blank"><p>ワイヤレス イヤホン Bluetooth イヤホン Siri対応 HiFi ブルートゥースイヤホン 片耳/両耳 左右分離型 TypeC充電 小型 軽量 (DN1-D7004)</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0C2W1188T" target="_blank"><img src="https://c.media-amazon.com/images/I/31-lxrO1JyL._AC_SY679_.jpg" width="100" height="100" /></a></td>
+                <td>3998</td>
+                <td>0</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="30"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BQZMFQNH" target="_blank"><p>ソニー(SONY) ウォークマン純正アクセサリー NW-A300シリーズ専用 ソフトケース グレー CKS-NWA300HC</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BQZMFQNH" target="_blank"><img src="https://c.media-amazon.com/images/I/31DWyqJGg5L._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>5836</td>
+                <td>3</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="34"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B016XKR0BC" target="_blank"><p>Anker Soundcore ポータブル Bluetooth5.0 スピーカー 24時間連続再生可能【デュアルドライバー / IPX5防水規格 / ワイヤレススピーカー/内蔵マイク搭載】(ブルー)</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B016XKR0BC" target="_blank"><img src="https://c.media-amazon.com/images/I/71dLst6DxjL._AC_SX425_.jpg" width="100" height="100" /></a></td>
+                <td>9980</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="36"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXRLLTTF" target="_blank"><p>【MagSafeスタンド一体型・画面フィルム付き】Holidi Galaxy S23 Ultra ケース SC-52D SCG20 マット感 マグネット搭載 隠しスタンド 米軍MIL規格 全面保護 ワイヤレス充電 マグセーフ対応 半透明 ブラック</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXRLLTTF" target="_blank"><img src="https://c.media-amazon.com/images/I/61FcSGIwpXL._AC_SX425_.jpg" width="100" height="100" /></a></td>
+                <td>6798</td>
+                <td>5</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="37"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B096W4LMXZ" target="_blank"><p>【Ringke】MINI POUCH TWO POCKET イヤホンケース ICカード 現金 コイン入れ イヤホンポーチ ミニポーチ ミニバッグ (カラビナ付き) - Black</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B096W4LMXZ" target="_blank"><img src="https://c.media-amazon.com/images/I/71KlXyfM-zS._AC_SX466_.jpg" width="100" height="100" /></a></td>
+                <td>4798</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="38"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B097227KCJ" target="_blank"><p>TORRAS iPhone 13 mini 用 ケース 軽量 ガラスフィルム付属 マット質感 さらさら手触り 指紋防止 擦り傷防止 画面レンズ保護 ハード アイフォン13ミニ用 カバー 2021 ブラック Wisdom Series</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B097227KCJ" target="_blank"><img src="https://c.media-amazon.com/images/I/61ibJYyKyRL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>3672</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="39"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BCWBBC4L" target="_blank"><p>iFace First Class Standard iPhone 14 ケース (イエロー)【アイフェイス アイフォン14 用 iphone14 用 カバー 韓国 耐衝撃 ストラップホール】</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BCWBBC4L" target="_blank"><img src="https://c.media-amazon.com/images/I/51CTndRkosL._AC_SY679_.jpg" width="100" height="100" /></a></td>
+                <td>6600</td>
+                <td>2</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="40"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B087X1538X" target="_blank"><p>子供用 トランシーバー 4台セット TRH866 特定小電力トランシーバー、小型省電力、おもちゃ、免許・資格不要、親子アクティビティ、バッテリーなし（別売）</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B087X1538X" target="_blank"><img src="https://c.media-amazon.com/images/I/71bzUBTGALL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>11164</td>
+                <td>5</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="41"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BWXJFZH7" target="_blank"><p>MOUNTUP テレビ壁掛け金具 回転式 モニターアーム 軽量 10～43インチ対応 耐荷重13kg 中小型 左右移動式 多角度調整 VESA200×200mm 適格請求書発行可</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BWXJFZH7" target="_blank"><img src="https://c.media-amazon.com/images/I/71V7dl8nhXL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>4498</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="42"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0C1HKYDJS" target="_blank"><p>【NYタイムズスクエアを席巻！】TORRAS iPhone 14 Pro Max 用 ケース 半透明 米軍規格 Halbachマグネット ワイアレス充電対応 縦横両対応 アイフォン 14 ProMax 用 ケース 「UPRO Ostand」パープル</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0C1HKYDJS" target="_blank"><img src="https://c.media-amazon.com/images/I/61PwSy7I6qL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>10798</td>
+                <td>16</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="43"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BKZFC9LB" target="_blank"><p>エレコム シガーソケット USB PD対応 45W 2ポート USB-C USB-A 12V 24V 対応 [ Macbook iPad iPhone Android 45Wで充電可能なノートPC ] ブラック EC-DC10BK</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BKZFC9LB" target="_blank"><img src="https://c.media-amazon.com/images/I/51d9cbBTH+L._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>3940</td>
+                <td>3</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="45"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07455SBQZ" target="_blank"><p>Godox S-型 ブラケット/ブラケットマウント 角度調整可/ホルダー Bowensマウント付 ストロボ/フラッシュ/ソフトボックス/ビューティーディッシュ/傘対応【並行輸入品】</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07455SBQZ" target="_blank"><img src="https://c.media-amazon.com/images/I/61Kcvm2mNbL._AC_SY355_.jpg" width="100" height="100" /></a></td>
+                <td>4398</td>
+                <td>30</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="46"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXKXB5HW" target="_blank"><p>オーディオテクニカ ATH-SQ1TW2 NRD ワイヤレスイヤホン bluetooth / 小型 軽量 / 最大20時間再生 / 低遅延 / 外音取込み / マルチポイント / マルチペアリング / 防水 IPX5 / ワイヤレス充電 /【国内正規品】ネイビーレッド ATH-SQ1TW2 NRD</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B0BXKXB5HW" target="_blank"><img src="https://c.media-amazon.com/images/I/61uncWMhVoL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>18636</td>
+                <td>3</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="50"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07SHCLR7T" target="_blank"><p>Stageek スピーカースタンド 卓上 小型スピーカーアルミ台座 5°上向き傾け 本棚スピーカー用 デスクトップスピーカースタンド ブラック[2台1組]</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B07SHCLR7T" target="_blank"><img src="https://c.media-amazon.com/images/I/615-QdBktVL._AC_SX425_.jpg" width="100" height="100" /></a></td>
+                <td>10998</td>
+                <td>50</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="51"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B00X9TY8ZW" target="_blank"><p>Signstek Audio USB-DAC ヘッドフォンアンプ/コンパクトでUSBケーブル付き 小型</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B00X9TY8ZW" target="_blank"><img src="https://c.media-amazon.com/images/I/61BDpYIcDRL._AC_SX425_.jpg" width="100" height="100" /></a></td>
+                <td>5998</td>
+                <td>5</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="52"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B01E74L2L0" target="_blank"><p>Marantz マランツプロ モニターヘッドホン 密閉型 オーバーイヤーヘッドホン 有線 直径40mmドライバー 楽器演奏 配信 DJ ゲーム テレワーク MPH-1</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B01E74L2L0" target="_blank"><img src="https://c.media-amazon.com/images/I/81iTuJQLq7L._AC_SY606_.jpg" width="100" height="100" /></a></td>
+                <td>6910</td>
+                <td>2</td>
+            </tr>
+            
+            <tr class="text-center">
+                <td>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="53"></label>
+                    </div>
+                </td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09HCG2W9W" target="_blank"><p>NTHJOYS タッチペン スタイラスペン 極細 超高感度 iPad/スマホ/タブレット対応 たっちぺん 銅製ペン先 イラスト ゲーム USB充電式</p></a></td>
+                <td><a href="https:https://www.amazon.co.jp/dp/B09HCG2W9W" target="_blank"><img src="https://c.media-amazon.com/images/I/51bxtMQlkSL._AC_SY450_.jpg" width="100" height="100" /></a></td>
+                <td>4560</td>
+                <td>100</td>
+            </tr>
+            
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">警告</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        選択された商品を本当に削除しますか？
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" onclick="return alert('商品を削除します。少々お待ちください。')">確認</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">キャンセル</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            $(document).ready(function(){
+                $('#filter').on('input', function() {
+                    var keyword = $(this).val().toLowerCase();
+                    $('tbody tr').filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(keyword) > -1);
+                    });
+                });
+            });
+        </script>
+    </body>
+    </html>
+    
